@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Live Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ccxt"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Side: Charts -->
+        <div class="charts">
+            <h2>Cryptocurrency Trends</h2>
+            <canvas id="lineChart"></canvas>
+            <canvas id="barChart"></canvas>
+        </div>
+
+        <!-- Right Side: Table -->
+        <div class="data-table">
+            <h2>Last 30 Days OHLC Data</h2>
+            <table id="cryptoTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Open</th>
+                        <th>High</th>
+                        <th>Low</th>
+                        <th>Close</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be inserted dynamically -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="data_fetch.js"></script>
+    <script src="chart.js"></script>
+    <script src="table.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+crypto-live-dashboard/
+│── index.html        # Main webpage
+│── style.css         # Styling file
+│── script.js         # JavaScript logic
+│── data_fetch.js     # API fetching script
+│── chart.js          # Chart rendering script
+│── table.js          # Table rendering script
+│── assets/           # Store images/icons if needed
+│── README.md         # Project details
+│── .gitignore        # Ignore unnecessary files
+│── package.json      # If using Node.js (optional)
