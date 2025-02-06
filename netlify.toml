@@ -1,6 +1,8 @@
+
+
 [build]
-  command = "npm install && npm run build" # Adjust if you have a build script
-  publish = "public" # The folder containing your static files
+  command = "npm install && npm run build"
+  publish = "." # Publish from the root directory
 
 [functions]
   directory = "functions" # Optional: If you're using Netlify Functions
