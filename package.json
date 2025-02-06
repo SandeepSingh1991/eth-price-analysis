@@ -2,7 +2,7 @@
   "name": "crypto-dashboard",
   "version": "1.0.0",
   "description": "Live cryptocurrency analysis using CCXT",
-  "main": "index.js",
+  "main": "data_fetch.js",
   "scripts": {
     "start": "node server.js",
     "build": "vite build",
